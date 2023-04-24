@@ -5,10 +5,73 @@ body {
 
 .container {
     width: 1140px;
-    height: auto;
+    height: 100%;
     margin: 0 auto;
     background-color: bisque;
 }
+
+.image img {
+    height: auto;
+    width: 90%;
+}
+
+.sub-title {
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.title {
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+
+}
+
+.button {
+    border: none;
+    background-color: #1c44e4;
+    font-weight: 500;
+    font-style: 30px;
+    padding: 24px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.action {
+    margin-top: 30px;
+}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    height: 5px;
+    width: 100px;
+    vertical-align: middle;
+    background-color: rgba(237, 35, 159, .6);
+    filter: blur(4px)
+}
+
+/* / ABOUT ME  */
 
 /*  / CORE */
 
@@ -17,13 +80,15 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-.main-header__brand:hover{
+
+.main-header__brand:hover {
     transform: scale(1.03);
 }
+
 .main-header__brand img {
-    weight: 64px;
+    width: 64px;
     height: 64px;
-    margin:10px;
+    margin: 10px;
 }
 
 .main-navigation {
@@ -64,6 +129,12 @@ body {
     padding: 100px 30px;
 }
 
+.background-jpg {
+    width: 1140px;
+    opacity: .2;
+    display: none;
+}
+
 .clearfix {
     clear: both
 }
@@ -81,7 +152,7 @@ body {
 
 .main-section__image img {
     max-height: 360px;
-    max-weight: 360px;
+    max-width: 360px;
 }
 
 .main-section__welcome {
@@ -107,23 +178,17 @@ body {
     font-weight: 300;
     margin-bottom: 30px;
 }
-.main-section__social-networks a{
+
+.main-section__social-networks a {
     color: #8fa1aa;
     font-size: 30px;
-    display:inline-block;
+    display: inline-block;
     margin-right: 20px;
-    cursor:pointer
+    cursor: pointer
 }
+
 .main-section__action {
-    display: block;
     margin-top: 30px;
-    border: none;
-    background-color: #1c44e4;
-    font-weight: 500;
-    font-style: 30px;
-    padding: 24px 30px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 /* MAIN Section  */
@@ -175,3 +240,15 @@ body {
 }
 
 /* STATISTICS */
+
+/* ABOUT ME  */
+.about-me {
+    padding: 100px 0px
+}
+
+.about-me>div {
+    width: 50%;
+    float: left
+}
+
+
