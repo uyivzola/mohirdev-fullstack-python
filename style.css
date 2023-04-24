@@ -17,10 +17,13 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-
+.main-header__brand:hover{
+    transform: scale(1.03);
+}
 .main-header__brand img {
     weight: 64px;
-    height: 64px
+    height: 64px;
+    margin:10px;
 }
 
 .main-navigation {
@@ -61,6 +64,10 @@ body {
     padding: 100px 30px;
 }
 
+.clearfix {
+    clear: both
+}
+
 .main-section>div {
     width: 50%;
     float: left;
@@ -73,8 +80,8 @@ body {
 }
 
 .main-section__image img {
-    weight: 160px;
-    height: 160px;
+    max-height: 360px;
+    max-weight: 360px;
 }
 
 .main-section__welcome {
@@ -100,9 +107,15 @@ body {
     font-weight: 300;
     margin-bottom: 30px;
 }
-
+.main-section__social-networks a{
+    color: #8fa1aa;
+    font-size: 30px;
+    display:inline-block;
+    margin-right: 20px;
+    cursor:pointer
+}
 .main-section__action {
-    display:block;
+    display: block;
     margin-top: 30px;
     border: none;
     background-color: #1c44e4;
@@ -114,3 +127,51 @@ body {
 }
 
 /* MAIN Section  */
+
+/* STATISTICS */
+.statistics {
+    padding-top: 100px;
+}
+
+.statistics__item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    background-color: darkgray;
+    border-radius: 6px;
+    margin: 20px 20px;
+    text-align: center;
+    width: 190px;
+    height: 140px;
+}
+
+.statistics__item:hover {
+    background-color: rgb(201, 180, 180);
+    transform: scale(1.05);
+    border: 2px dashed brown
+}
+
+.statistics__number {
+    font-size: 37px;
+    color: cadetblue
+}
+
+.statistics__title {
+    font-size: 22px;
+    color: #ba43ff;
+    font-weight: 300
+}
+
+.statistics__item h3 {
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.statistics__item p {
+    color: #797979;
+    font-style: 30px;
+    text-transform: uppercase;
+}
+
+/* STATISTICS */

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <title>portfolio web page</title>
     <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- add icon link -->
+    <link rel="icon" href="trump-logo.png" type="image/x-icon">
 
 </head>
 
@@ -16,7 +21,7 @@
         <header class='main-header'>
             <div class='main-header__brand'>
                 <a href='./index.html'>
-                    <img src='logo.png' />
+                    <img src='trump-logo.png' />
                 </a>
             </div>
             <nav class='main-navigation'>
@@ -56,36 +61,51 @@
                 <h4 class='main-section__welcome to-upper'>HI there</h4>
                 <h1 class='main-section__introduction to-upper'> My name is Behzod</h1>
                 <h3 class='main-section__position to-upper'>I am Software Engineer!</h3>
-                <div class='social-media'>
-                    <ul class='main-section__items'>
-                        <li class='main-section__item'>
-                            <a href='#' class=''>Telgegram</a>
-                        </li>
-                        <li class='main-section__item'>
-                            <a href='#' class=''>Instagram</a>
-                        </li>
-                        <li class='main-section__item'>
-                            <a href='#' class=''>Facebook</a>
-                        </li>
-                        <li class='main-section__item'>
-                            <a href='#' class=''>Twitter</a>
-                        </li>
-                        <li class='main-section__item'>
-                            <a href='#' class=''>YouTube</a>
-                        </li>
+                <div class='main-section__social-networks'>
+                    <a href='https://t.me/uyivzola' class=''><i class="fa-brands fa-telegram"></i></a>
+                    <a href='https://instagram.com/behzad_khidirov'>
+                        <i class="fa-brands fa-instagram "></i>
+                    </a>
+                    <a href='https://facebook.com/behzad_khidiro' class=''>
+
+                        <i class="fa-brands fa-facebook "></i>
+                    </a>
                     </ul>
+                    <a href='#' class=''><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <button type='button' class='main-section__action to-upper'> Ishlarimni ko'ring</button>
             </div>
             <div class='main-section__image'>
-                <img src='logo.png' alt='My image'>
+                <img src='trump1.png' alt='My image'>
             </div>
         </section>
+        <div class="clearfix"></div>
     </div>
 
 
     <!-- /MAIN  -->
+    <!-- STATISTICS -->
+    <div class="container">
 
+
+        <section class="statistics" id="statistics">
+            <div class="statistics__items">
+                <div class="statistics__item">
+                    <h3 class="statistics__number">15K+</h3>
+                    <p class="statistics__title">Happy Customers</p>
+                </div>
+                <div class="statistics__item">
+                    <h3 class="statistics__number">4+</h3>
+                    <p class="statistics__title">years of experience</p>
+                </div>
+                <div class="statistics__item">
+                    <h3 class="statistics__number">80+</h3>
+                    <p class="statistics__title">successfull projects</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
 </body>
 
 </html>
