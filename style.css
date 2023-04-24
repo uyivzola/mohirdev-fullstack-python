@@ -64,18 +64,26 @@ body {
     float: left;
 }
 
-.main_section__image img {
+.main-section__image {
     text-align: right;
-    weight: 64px;
-    height: 64px;
     display: inline-block;
 
 }
 
-.main_section__welcome {
-    font-size: 16px;
-    font-weight: 400;
-
+.main-section__image img {
+    weight: 64px;
+    height: 64px;
 }
 
+.main-section__welcome {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #797979;
+
+}
+.main-section__introduction{
+    font-size: 25px;
+    
+}
 /* MAIN Section  */
