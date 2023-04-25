@@ -1,13 +1,14 @@
 /*  CORE */
 body {
     font-family: sans-serif;
+    background-color: #FFACAC;
 }
 
 .container {
     width: 1140px;
     height: 100%;
     margin: 0 auto;
-    background-color: bisque;
+    background-color: #F7D060;
 }
 
 .image img {
@@ -20,7 +21,7 @@ body {
     font-size: 23px;
     font-weight: 300;
     margin-bottom: 10px;
-    color: #797979;
+    color: #FF6D60;
     text-transform: uppercase;
 }
 
@@ -29,21 +30,21 @@ body {
     font-size: 35px;
     font-weight: 600;
     margin-top: 5px;
-    color: #797979;
+    color: #FF6D60;
     text-transform: uppercase;
 }
 
 .description {
     font-size: 14px;
     font-weight: 300;
-    color: #797979;
+    color: #FF6D60;
     line-height: 27px;
 
 }
 
 .button {
     border: none;
-    background-color: #1c44e4;
+    background-color: #98D8AA;
     font-weight: 500;
     font-style: 30px;
     padding: 24px 30px;
@@ -53,7 +54,8 @@ body {
 }
 
 .button:hover {
-    color: white;
+    color: #3C486B;
+    background-color: #FF6D60;
     transform: scale(1.05);
 }
 
@@ -76,6 +78,10 @@ body {
 /*  / CORE */
 
 /* HEADER */
+.main-header{
+    width: 100%;
+    background-color: #2D2727;
+}
 .main-header__brand {
     display: inline-block;
     vertical-align: middle;
@@ -88,12 +94,13 @@ body {
 .main-header__brand img {
     width: 64px;
     height: 64px;
-    margin: 10px;
+    vertical-align: middle;
+    margin: 10px 25px;
 }
 
 .main-navigation {
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .main-navigation__item {
@@ -105,16 +112,16 @@ body {
 .main-navigation__item a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #05364d;
+    color: #FF6D60;
     font-weight: 500;
 }
 
 .main-navigation__item a:hover {
-    color: #efb6df
+    color: #F6F1E9
 }
 
 .main-navigation__item a:active {
-    color: #efb6df
+    color: #F6F1E9
 }
 
 /* /HEADER */
@@ -202,7 +209,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 30px;
-    background-color: darkgray;
+    background-color: #2D2727;
     border-radius: 6px;
     margin: 20px 20px;
     text-align: center;
@@ -211,9 +218,8 @@ body {
 }
 
 .statistics__item:hover {
-    background-color: rgb(201, 180, 180);
-    transform: scale(1.05);
-    border: 2px dashed brown
+    background-color: #FF6D60;
+    color: #2D2727;
 }
 
 .statistics__number {
@@ -223,23 +229,23 @@ body {
 
 .statistics__title {
     font-size: 22px;
-    color: #ba43ff;
+    color: #F3E99F;
     font-weight: 300
 }
 
 .statistics__item h3 {
-    color: brown;
+    color: #F3E99F;
     text-transform: uppercase;
     font-weight: 300;
 }
 
 .statistics__item p {
-    color: #797979;
+    color: #F3E99F;
     font-style: 30px;
     text-transform: uppercase;
 }
 
-/* STATISTICS */
+/* / STATISTICS */
 
 /* ABOUT ME  */
 .about-me {
@@ -259,7 +265,7 @@ body {
 
 .service-card {
     display: inline-block;
-    background-color: #f8faaf;
+    background-color: #2D2727;
     padding: 60px 30px;
     margin: 3px;
     text-align: center;
@@ -275,7 +281,7 @@ body {
 }
 
 .service-card__title {
-    color: #05364d;
+    color: #F3E99F;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -283,7 +289,7 @@ body {
 }
 
 .service-card__description {
-    color: #797979;
+    color: #F3E99F;
     font-size: 16px;
     line-height: 27px;
     font-weight: 300;
@@ -292,14 +298,14 @@ body {
 
 .service-card__link {
     text-decoration: none;
-    color: #05364e;
+    color: #F3E99F;
     font-size: 13px;
     line-height: 27px;
     text-transform: uppercase;
 }
 
 .service-card:hover {
-    background-color: #efb6df;
+    background-color: #FF6D60;
 
 }
 
@@ -307,7 +313,7 @@ body {
 .service-card:hover .service-card__link,
 .service-card:hover .service-card__title,
 .service-card:hover .service-card {
-    background-color: #efb6df;
-    color: aqua;
+    background-color: #FF6D60;
+    color: #2D2727;
 
 }
